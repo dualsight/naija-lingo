@@ -9,6 +9,6 @@ const app = createApp(App);
 app.use(router);
 router.isReady().then(() => {
 	app
-		.provide("router", router)
+		.provide('router', router)
 		.mount('#app')
 })
