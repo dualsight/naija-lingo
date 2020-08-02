@@ -1,7 +1,6 @@
 {
-  "name": "vite-tailwind-starter",
+  "name": "naija-lingo",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build"
