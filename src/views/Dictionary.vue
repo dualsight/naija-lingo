@@ -50,7 +50,7 @@
               </button>
             </div>
             <div class="flex-shrink-0 flex items-center px-4 py-6 bg-green-400">
-              <img src="/@/assets/images/default-monochrome.svg" alt="">
+              <img src="/@/assets/images/default-monochrome.svg" alt />
             </div>
             <div class="mt-5 flex-1 h-0 overflow-y-auto">
               <nav class="px-2">
@@ -182,49 +182,69 @@
         <div class="flex flex-col w-64">
           <!-- Sidebar component, swap this element with another sidebar if you like -->
           <div class="flex flex-col h-0 flex-1">
-            <div class="flex items-center h-16 flex-shrink-0 px-4 bg-green-400">
-              <img src="/@/assets/images/default-monochrome-white.svg" alt="">
+            <div class="flex items-center h-16 flex-shrink-0 px-4 bg-gray-800">
+              <img src="/@/assets/images/default-monochrome-white.svg" alt />
             </div>
             <div class="flex-1 flex flex-col overflow-y-auto">
-              <nav class="flex-1 px-2 py-4 bg-white">
-                <span class="px-1 py-1 rounded bg-green-300 text-white text-sm">A</span>
+              <nav class="flex-1 px-2 py-4 bg-gray-600">
+                <div>
+                  <label for="search_field" class="sr-only">Search</label>
+                  <div class="relative text-gray-400 focus-within:text-gray-600">
+                    <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none">
+                      <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      id="search_field"
+                      class="block w-full h-full pl-8 pr-3 py-2 rounded-md text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 sm:text-sm"
+                      placeholder="Search words..."
+                      type="search"
+                    />
+                  </div>
+                </div>
+                <span class="px-1 py-1 text-gray-400 font-semibold text-sm">A</span>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Aback</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Abacus</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Abaci</a>
-                <span class="px-1 py-1 rounded bg-green-300 text-white text-sm">B</span>
+                <span class="px-1 py-1 text-gray-400 font-semibold text-sm">B</span>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Baaed</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Baaing</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Baal</a>
-                <span class="px-1 py-1 rounded bg-green-300 text-white text-sm">C</span>
+                <span class="px-1 py-1 text-gray-400 font-semibold text-sm">C</span>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Cabal</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Cabby</a>
                 <a
                   href="#"
-                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-800 rounded-md hover:text-white hover:bg-green-400 focus:outline-none focus:text-white focus:bg-green-500 transition ease-in-out duration-150"
+                  class="group flex items-center px-2 py-2 text-sm leading-5 font-medium text-white rounded-md hover:bg-gray-500 focus:outline-none focus:bg-gray-500 transition ease-in-out duration-150"
                 >Caber</a>
               </nav>
             </div>
@@ -232,134 +252,60 @@
         </div>
       </div>
       <div class="flex flex-col w-0 flex-1 overflow-hidden">
-        <div class="relative z-10 flex-shrink-0 flex h-16 bg-white shadow">
-          <button
-            class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:bg-gray-100 focus:text-gray-600 md:hidden"
-            aria-label="Open sidebar"
-          >
-            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h7"
-              />
-            </svg>
-          </button>
-          <div class="flex-1 px-4 flex justify-between">
-            <div class="flex-1 flex">
-              <form class="w-full flex md:ml-0" action="#" method="GET">
-                <label for="search_field" class="sr-only">Search</label>
-                <div class="relative w-full text-gray-400 focus-within:text-gray-600">
-                  <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none">
-                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                      />
-                    </svg>
-                  </div>
-                  <input
-                    id="search_field"
-                    class="block w-full h-full pl-8 pr-3 py-2 rounded-md text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 sm:text-sm"
-                    placeholder="Search words..."
-                    type="search"
-                  />
-                </div>
-              </form>
-            </div>
-            <div class="ml-4 flex items-center md:ml-6">
-              <button
-                class="p-1 text-gray-400 rounded-full hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:shadow-outline focus:text-gray-500"
-                aria-label="Notifications"
-              >
-                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                  />
-                </svg>
-              </button>
-
-              <!-- Profile dropdown -->
-              <div class="ml-3 relative">
-                <div>
-                  <button
-                  @click="toggleMenu()"
-                    class="max-w-xs flex items-center text-sm rounded-full focus:outline-none focus:shadow-outline"
-                    id="user-menu"
-                    aria-label="User menu"
-                    aria-haspopup="true"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="0.5"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      height="24"
-                    >
-                      <path
-                        class="heroicon-ui"
-                        d="M9 4.58V4c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v.58a8 8 0 0 1 1.92 1.11l.5-.29a2 2 0 0 1 2.74.73l1 1.74a2 2 0 0 1-.73 2.73l-.5.29a8.06 8.06 0 0 1 0 2.22l.5.3a2 2 0 0 1 .73 2.72l-1 1.74a2 2 0 0 1-2.73.73l-.5-.3A8 8 0 0 1 15 19.43V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-.58a8 8 0 0 1-1.92-1.11l-.5.29a2 2 0 0 1-2.74-.73l-1-1.74a2 2 0 0 1 .73-2.73l.5-.29a8.06 8.06 0 0 1 0-2.22l-.5-.3a2 2 0 0 1-.73-2.72l1-1.74a2 2 0 0 1 2.73-.73l.5.3A8 8 0 0 1 9 4.57zM7.88 7.64l-.54.51-1.77-1.02-1 1.74 1.76 1.01-.17.73a6.02 6.02 0 0 0 0 2.78l.17.73-1.76 1.01 1 1.74 1.77-1.02.54.51a6 6 0 0 0 2.4 1.4l.72.2V20h2v-2.04l.71-.2a6 6 0 0 0 2.41-1.4l.54-.51 1.77 1.02 1-1.74-1.76-1.01.17-.73a6.02 6.02 0 0 0 0-2.78l-.17-.73 1.76-1.01-1-1.74-1.77 1.02-.54-.51a6 6 0 0 0-2.4-1.4l-.72-.2V4h-2v2.04l-.71.2a6 6 0 0 0-2.41 1.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <!--
-              Profile dropdown panel, show/hide based on dropdown state.
-
-              Entering: "transition ease-out duration-100"
-                From: "transform opacity-0 scale-95"
-                To: "transform opacity-100 scale-100"
-              Leaving: "transition ease-in duration-75"
-                From: "transform opacity-100 scale-100"
-                To: "transform opacity-0 scale-95"
-                -->
-                <div v-if="showMenu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
-                  <div
-                    class="py-1 rounded-md bg-white shadow-xs"
-                    role="menu"
-                    aria-orientation="vertical"
-                    aria-labelledby="user-menu"
-                  >
-                    <a
-                      href="#"
-                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition ease-in-out duration-150"
-                      role="menuitem"
-                    >Settings</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <main class="flex-1 relative z-0 overflow-y-auto focus:outline-none" tabindex="0">
-          <div class="pt-2 pb-6 md:py-6">
+          <div class="pt-2 pb-6 md:py-6 mt-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <h1 class="text-2xl font-semibold text-gray-900">Abacus</h1>
-              <span class="bg-green-400 text-green-100 text-xs font-semibold px-3 p-1 rounded-full">Noun</span>
+              <span
+                class="bg-green-400 text-green-100 text-xs font-semibold px-3 p-1 rounded-full"
+              >Noun</span>
               <p class="text-sm italic font-ubuntu">/phonetic transcription/</p>
 
               <div class="bg-white rounded p-3 font-ubuntu w-3/4 mt-6">
-                <span>Definition.</span>
+                <span class="font-semibold text-green-400">Definition:</span>
                 <p class="text-gray-700">
                   The abacus (plural abaci or abacuses), also called a counting frame,
-                   is a calculating tool that was in use in the ancient Near East, Europe,
-                   China, and Russia, centuries before the adoption of the written Arabic numeral system.
+                  is a calculating tool that was in use in the ancient Near East, Europe,
+                  China, and Russia, centuries before the adoption of the written Arabic numeral system.
                 </p>
               </div>
             </div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <!-- Replace with your content -->
               <div class="py-4">
-                <div class="rounded-lg h-96">
-
+                <span class="font-semibold text-green-400">Examples:</span>
+                <div class="rounded-lg bg-gray-200 w-3/4 flex flex-row text-base p-4 mt-2">
+                  <span class="text-gray-500 font-ubuntu">1.</span>
+                  <div>
+                    <span class="text-gray-600 ml-2 font-ubuntu">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </span>
+                  </div>
+                </div>
+                <div class="rounded-lg bg-gray-200 w-3/4 flex flex-row text-base p-4 mt-2">
+                  <span class="text-gray-500 font-ubuntu">2.</span>
+                  <div>
+                    <span class="text-gray-600 ml-2 font-ubuntu">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </span>
+                  </div>
+                </div>
+                <div class="rounded-lg bg-gray-200 w-3/4 flex flex-row text-base p-4 mt-2">
+                  <span class="text-gray-500 font-ubuntu">3.</span>
+                  <div>
+                    <span class="text-gray-600 ml-2 font-ubuntu">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </span>
+                  </div>
                 </div>
               </div>
               <!-- /End replace -->
